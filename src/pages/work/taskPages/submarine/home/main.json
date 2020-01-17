@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "潜客",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "van-panel": "/static/vant/panel/index"
+  }
+}

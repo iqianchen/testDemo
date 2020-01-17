@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择款式",
+  "usingComponents": {
+    "van-radio": "/static/vant/radio/index",
+    "van-radio-group": "/static/vant/radio-group/index"
+  }
+}

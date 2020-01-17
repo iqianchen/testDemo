@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "请假详情",
+  "usingComponents": {
+    "van-popup": "/static/vant/popup/index",
+    "van-picker": "/static/vant/picker/index",
+    "van-datetime-picker": "/static/vant/datetime-picker/index"
+  }
+}

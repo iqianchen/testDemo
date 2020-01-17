@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "收款单",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+      "van-panel": "/static/vant/panel/index",
+      "van-card": "/static/vant/card/index"
+  }
+}

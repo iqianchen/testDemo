@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "产品销售排行表",
+  "usingComponents": {
+      "van-tab": "/static/vant/tab/index",
+      "van-tabs": "/static/vant/tabs/index",
+      "van-datetime-picker": "/static/vant/datetime-picker/index",
+      "van-picker": "/static/vant/picker/index",
+      "van-popup": "/static/vant/popup/index"
+  }
+}

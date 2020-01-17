@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "选择产品",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+      "van-card": "/static/vant/card/index",
+      "van-radio": "/static/vant/radio/index",
+      "van-radio-group": "/static/vant/radio-group/index",
+      "van-cell": "/static/vant/cell/index",
+      "van-cell-group": "/static/vant/cell-group/index"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的回款",
+  "usingComponents": {
+    "van-tabbar": "/static/vant/tabbar/index",
+    "van-tabbar-item": "/static/vant/tabbar-item/index",
+    "van-popup": "/static/vant/popup/index",
+    "van-datetime-picker": "/static/vant/datetime-picker/index"
+  }
+}

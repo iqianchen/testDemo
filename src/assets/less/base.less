@@ -1,0 +1,154 @@
+@import './base-color.less';
+
+page {
+  height: 100%;
+  background-color: @background-color;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+
+/* ------- 按钮样式  --------- */
+.submit-button {
+  width: 90%;
+  margin: 20px auto;
+}
+// 悬浮按钮
+.float-button {
+  position: fixed;
+  z-index: 10;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: @button-float-color;
+  font-size: 32px;
+  line-height: 50px;
+  text-align: center;
+  color: @white;
+}
+
+/* ------- 自定义面板头部样式  --------- */
+// .custom-panel-header {
+//   position:relative;
+//   display: flex;
+//   -webkit-display: flex;
+//   padding: 7px 15px;
+//   font-size:14px;
+//   line-height:24px;
+//   color:@text-color;
+//   background-color: @white;
+//   box-sizing:border-box;
+//   .title,
+//   .status {
+//     flex: 1;
+//   }
+//   .status {
+//     text-align: right;
+//     color: @red;
+//   }
+//   .title {
+//     span {
+//       width: 100%;
+//       display: inline-block;
+//       padding: 3px 0;
+//     }
+//     .subTitle {
+//       color: #999;
+//       font-size:12px;
+//       line-height:18px;
+//     }
+//   }
+// }
+
+/* ------- 卡片列表样式  --------- */
+.content-wrapper {
+  padding-bottom: 60px;
+  .card-list {
+    margin: 6px 0;
+    .list-header {
+      position: relative;
+      display: flex;
+      padding: 7px 15px;
+      font-size: 14px;
+      line-height: 24px;
+      color: @text-color;
+      background-color: @white;
+      box-sizing: border-box;
+      .title {
+        flex: 1;
+        span {
+          width: 100%;
+          display: inline-block;
+          padding: 3px 0;
+        }
+        .subTitle {
+          color: @text-subTitle-color;
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+      .status {
+        flex: 1;
+        text-align: right;
+        color: @red;
+        &.computed {
+          color: @green;
+        }
+      }
+    }
+  }
+  .action-button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 10px;
+    background-color: @white;
+    .van-button {
+      margin-left: 10px;
+    }
+  }
+
+  .van-card__header {
+    align-items: center;
+  }
+  .van-card__title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+/* ------- textarea样式  --------- */
+.textarea-class {
+  &.van-field__input {
+    min-height: 70px;
+  }
+}
+// 出现弹窗时，textarea的样式
+.textareaBox {
+  .textarea {
+    position:relative;
+    display:flex;
+    display:-webkit-flex;
+    width:100%;
+    padding:10px 15px;
+    font-size:14px;
+    line-height:24px;
+    color: @text-color;
+    background-color: @white;
+    box-sizing:border-box;
+    flex-wrap: wrap;
+    .label {
+      width: 90px
+    }
+    .value {
+      flex:1;
+      -webkit-flex:1;
+      overflow:hidden;
+      text-align:left;
+      vertical-align:middle;
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的日志",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "van-popup": "/static/vant/popup/index",
+    "van-panel": "/static/vant/panel/index",
+    "van-datetime-picker": "/static/vant/datetime-picker/index"
+  }
+}

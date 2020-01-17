@@ -1,0 +1,51 @@
+@import './base-color.less';
+
+.menu-tab {
+  &.van-tabs--line {
+    top: -1PX;
+    padding-top: 35PX;
+    .van-tabs__wrap {
+      top: -1PX;
+      position: fixed;
+      z-index: 100;
+      width: 100%;
+      height: 35PX;
+    }
+    .van-tabs__line {
+      background-color:#fff !important;
+      width: 45PX !important;
+      margin-left: -5PX;
+    }
+    .van-tab--active {
+      color: #fff;
+    }
+    .van-ellipsis.van-ellipsis {
+      flex-basis:20% !important;
+    }
+    .van-tab {
+      margin-top: -1PX;
+      background-color: @main-color;
+      color: @tab-color;
+      line-height: 35PX;
+    }
+  }
+  .customSearch {
+    display: flex;
+    background-color: @main-color;
+    border-top: 1PX solid #000;
+    font-size: 14PX;
+    color: #fff;
+    height: 34PX;
+    padding: 0 8PX;
+    >div {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span:last-child {
+        flex-basis: 100PX;
+        margin-left: 15PX;
+      }
+    }
+  }
+}

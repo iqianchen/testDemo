@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "我的考勤",
+  "usingComponents": {
+      "van-tabbar": "/static/vant/tabbar/index",
+      "van-tabbar-item": "/static/vant/tabbar-item/index",
+      "van-tab": "/static/vant/tab/index",
+      "van-tabs": "/static/vant/tabs/index",
+      "van-datetime-picker": "/static/vant/datetime-picker/index",
+      "van-popup": "/static/vant/popup/index",
+      "van-steps": "/static/vant/steps/index"
+  }
+}
